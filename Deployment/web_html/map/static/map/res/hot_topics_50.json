@@ -1,0 +1,423 @@
+{
+  "all_topics": [
+    {
+      "topic": "melbourne",
+      "number": 281
+    },
+    {
+      "topic": "ausvote",
+      "number": 229
+    },
+    {
+      "topic": "ausvote2019",
+      "number": 132
+    },
+    {
+      "topic": "ausvotes",
+      "number": 77
+    },
+    {
+      "topic": "sidebyside",
+      "number": 125
+    },
+    {
+      "topic": "sale",
+      "number": 78
+    },
+    {
+      "topic": "job",
+      "number": 78
+    },
+    {
+      "topic": "trans",
+      "number": 77
+    },
+    {
+      "topic": "photo",
+      "number": 72
+    },
+    {
+      "topic": "springst",
+      "number": 69
+    },
+    {
+      "topic": "avergersendgame",
+      "number": 68
+    },
+    {
+      "topic": "australia",
+      "number": 68
+    },
+    {
+      "topic": "career",
+      "number": 68
+    },
+    {
+      "topic": "autism",
+      "number": 66
+    },
+    {
+      "topic": "ausvoteshealth",
+      "number": 64
+    },
+    {
+      "topic": "australianproblems",
+      "number": 61
+    },
+    {
+      "topic": "australiaday2019",
+      "number": 61
+    },
+    {
+      "topic": "neighbours",
+      "number": 60
+    },
+    {
+      "topic": "hiring",
+      "number": 58
+    },
+    {
+      "topic": "au",
+      "number": 56
+    },
+    {
+      "topic": "argentina",
+      "number": 55
+    },
+    {
+      "topic": "avengers",
+      "number": 54
+    },
+    {
+      "topic": "hiring",
+      "number": 50
+    },
+    {
+      "topic": "endgame",
+      "number": 50
+    },
+    {
+      "topic": "singer",
+      "number": 48
+    },
+    {
+      "topic": "trump",
+      "number": 44
+    },
+    {
+      "topic": "travel",
+      "number": 41
+    },
+    {
+      "topic": "upupcronulla",
+      "number": 40
+    },
+    {
+      "topic": "gopies",
+      "number": 38
+    },
+    {
+      "topic": "fordmustang",
+      "number": 31
+    },
+    {
+      "topic": "mustang",
+      "number": 37
+    },
+    {
+      "topic": "trip",
+      "number": 34
+    },
+    {
+      "topic": "autumn",
+      "number": 34
+    },
+    {
+      "topic": "art",
+      "number": 32
+    },
+    {
+      "topic": "auswrites",
+      "number": 31
+    },
+    {
+      "topic": "qanda",
+      "number": 29
+    },
+    {
+      "topic": "Job",
+      "number": 29
+    },
+    {
+      "topic": "goswans",
+      "number": 28
+    },
+    {
+      "topic": "transplant",
+      "number": 28
+    }
+  ],
+  "pos_topics": [
+    {
+      "topic": "ausvotes",
+      "number": 130
+    },
+    {
+      "topic": "melbourne",
+      "number": 75
+    },
+    {
+      "topic": "job",
+      "number": 74
+    },
+    {
+      "topic": "victraffic",
+      "number": 59
+    },
+    {
+      "topic": "auspol",
+      "number": 51
+    },
+    {
+      "topic": "Hiring",
+      "number": 50
+    },
+    {
+      "topic": "victraffic",
+      "number": 45
+    },
+    {
+      "topic": "adventure",
+      "number": 44
+    },
+    {
+      "topic": "beach",
+      "number": 36
+    },
+    {
+      "topic": "biohackers",
+      "number": 32
+    },
+    {
+      "topic": "springst",
+      "number": 30
+    },
+    {
+      "topic": "aussie",
+      "number": 30
+    },
+    {
+      "topic": "auspool",
+      "number": 24
+    },
+    {
+      "topic": "selfie",
+      "number": 24
+    },
+    {
+      "topic": "ball",
+      "number": 23
+    },
+    {
+      "topic": "building",
+      "number": 23
+    },
+    {
+      "topic": "mkr",
+      "number": 22
+    },
+
+    {
+      "topic": "buslife",
+      "number": 20
+    },
+
+    {
+      "topic": "neighbours",
+      "number": 19
+    },
+    {
+      "topic": "photo",
+      "number": 19
+    },
+    {
+      "topic": "change",
+      "number": 19
+    },
+    {
+      "topic": "Australia",
+      "number": 19
+    },
+    {
+      "topic": "friends",
+      "number": 18
+    },
+    {
+      "topic": "bridal",
+      "number": 15
+    },
+
+    {
+      "topic": "49ers",
+      "number": 14
+    },
+    {
+      "topic": "love",
+      "number": 14
+    },
+    {
+      "topic": "fromthevalley",
+      "number": 14
+    },
+    {
+      "topic": "autumn",
+      "number": 13
+    },
+    {
+      "topic": "colours",
+      "number": 13
+    },
+    {
+      "topic": "goswans",
+      "number": 12
+    },
+    {
+      "topic": "coffee",
+      "number": 12
+    },
+    {
+      "topic": "lioness",
+      "number": 12
+    },
+    {
+      "topic": "fun",
+      "number": 12
+    },
+    {
+      "topic": "city",
+      "number": 12
+    }
+  ],
+  "neg_topics": [
+    {
+      "topic": "ausvotes",
+      "number": 82
+    },
+    {
+      "topic": "victraffic",
+      "number": 28
+    },
+    {
+      "topic": "ausvotes19",
+      "number": 27
+    },
+    {
+      "topic": "melbourne",
+      "number": 26
+    },
+    {
+      "topic": "selfie",
+      "number": 26
+    },
+    {
+      "topic": "beastmode",
+      "number": 25
+    },
+    {
+      "topic": "bridal",
+      "number": 25
+    },
+    {
+      "topic": "bbl",
+      "number": 24
+    },
+    {
+      "topic": "funny",
+      "number": 24
+    },
+    {
+      "topic": "fun",
+      "number": 23
+    },
+    {
+      "topic": "fromthevalley",
+      "number": 21
+    },
+    {
+      "topic": "boxing",
+      "number": 19
+    },
+    {
+      "topic": "furdu2019",
+      "number": 19
+    },
+    {
+      "topic": "auspol",
+      "number": 17
+    },
+    {
+      "topic": "uncaged",
+      "number": 16
+    },
+    {
+      "topic": "photo",
+      "number": 16
+    },
+    {
+      "topic": "breakfast",
+      "number": 16
+    },
+    {
+      "topic": "artgallery",
+      "number": 10
+    },
+    {
+      "topic": "springst",
+      "number": 9
+    },
+    {
+      "topic": "truth",
+      "number": 8
+    },
+    {
+      "topic": "gotiges",
+      "number": 8
+    },
+    {
+      "topic": "cat",
+      "number": 7
+    },
+    {
+      "topic": "dog",
+      "number": 7
+    },
+    {
+      "topic": "art",
+      "number": 6
+    },
+    {
+      "topic": "lost",
+      "number": 6
+    },
+    {
+      "topic": "green",
+      "number": 6
+    },
+    {
+      "topic": "f1",
+      "number": 5
+    },
+    {
+      "topic": "moron",
+      "number": 5
+    },
+    {
+      "topic": "banking",
+      "number": 5
+    },
+    {
+      "topic": "afl",
+      "number": 5
+    }
+  ]
+}

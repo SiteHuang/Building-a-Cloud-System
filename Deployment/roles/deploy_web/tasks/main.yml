@@ -1,0 +1,39 @@
+---
+
+# Team 20
+# Team member: Site Huang, 908282
+#              Chenyuan Zhang, 815901
+#              Zixuan Zhang, 846305
+#              Zhentao Zhang, 864735
+#              Kangyun Dou, 740145
+
+- name: Copy html to remote
+  become: yes
+  synchronize:
+    src: ./web_html
+    dest: "{{ home_dir }}"
+
+- name: Copy Web service setup file to remote
+  become: yes
+  template:
+    src: "{{ item }}.j2"
+    dest: "{{ home_dir }}/web_html/{{ item }}"
+    mode: 0744
+    owner: "{{ ansible_user }}"
+    group: "{{ ansible_user }}"
+  with_items:
+    - docker-compose.yml
+    - Dockerfile
+    - local.conf
+
+- name: Build Webservice -- "{{couchdb_hostname}}"
+  become: yes
+  command: "docker-compose down"
+  args:
+    chdir: "{{ home_dir }}/web_html"
+
+- name: Build Webservice -- "{{couchdb_hostname}}"
+  become: yes
+  command: "docker-compose up -d"
+  args:
+    chdir: "{{ home_dir }}/web_html"

@@ -1,0 +1,24 @@
+---
+# Team 20
+# Team member: Site Huang, 908282
+#              Chenyuan Zhang, 815901
+#              Zixuan Zhang, 846305
+#              Zhentao Zhang, 864735
+#              Kangyun Dou, 740145
+
+home_dir: /home/{{ ansible_user }}
+couchdb_dir: /home/{{ ansible_user }}/couchdb_setup
+couchdb_data_dir: /home/{{ ansible_user }}/couchdb_setup/data
+crawler_dir: /home/{{ ansible_user }}/crawler_setup
+couchdb_config_dir: /home/{{ ansible_user }}/couchdb_setup/couchdb_configs
+
+# number of webservices to distribute among all nodes
+num_scale_webservices: 4
+
+couchdb_username: Admin
+couchdb_password: admin
+couchdb_cookie: couchcookie
+couchdb_secret: couchsecret
+
+crawler_database: tweets_v1
+crawler_tag: "{{ couchdb_hostname }}_crawler"
